@@ -49,17 +49,20 @@ const Image = styled.img`
     background-color: #000;
     border-radius: 10px;
     margin-top: 4px;
-    // @media only screen and (max-width: 768px){
-    //     height: 40px;
-    // }
 `
 const Role = styled.div`
     font-size: 18px;
     font-weight: 600;
+    overflow: auto;
     color: ${({ theme }) => theme.text_primary + 99};
     @media only screen and (max-width: 768px){
         font-size: 14px;
-    }
+    };
+    &::-webkit-scrollbar {
+        display: none;
+    };
+    
+    
 `
 
 const CertificateCard = ({ src, name }) => {
@@ -158,8 +161,6 @@ const CertificateCardList = ({toggle}) => {
 
     return (
         <>
-            {/* <Wrapper> */}
-                {/* Filtered certificate cards based on toggle */}
                 {toggle === 'all' ? (
                     CertificateList.map((certi, index) => (
                         <CertificateCard key={index} src={certi.img} name={certi.name} />
@@ -169,10 +170,6 @@ const CertificateCardList = ({toggle}) => {
                         <CertificateCard key={index} src={certi.img} name={certi.name} />
                     ))
                 )}
-            {/* </Wrapper> */}
-            {/* {CertificateList.map((certi, index) => (
-                <CertificateCard key={index} src={certi.img} name={certi.name} />
-            ))} */}
         </>
     );
 }

@@ -1,10 +1,11 @@
 import LocalExpert from '../Assets/Projects/HomePage2.jpg'
 import Autoshow from '../Assets/Projects/AutoShow.jpg'
+import Ilac from '../Assets/Georgian@Ilac.jpg'
 
 export const Bio = {
   name: "Ronit Sanghvi",
   roles: [
-    "React Native Developer",
+    "ReactNative Developer",
     "Full Stack Developer",
     "Flutter Developer",
     "Programmer",
@@ -14,9 +15,9 @@ export const Bio = {
   github: "https://github.com/ronitSanghvi",
   resume:
     "https://drive.google.com/file/d/16Nqes0_U_Fd9wiyGgAEop53f7R1F7-0W/view?usp=sharing",
-  linkedin: "https://www.linkedin.com/in/ronit-sanghvi-a69974290/",
+  linkedin: "https://www.linkedin.com/in/ronit-sanghvi-a82a20209/",
   insta: "https://www.instagram.com/sanghvi_ronit/",
-  facebook: "https://www.facebook.com/rishav.chanda.165/",
+  upwork: "https://www.upwork.com/freelancers/~016c919da57600302e?mp_source=share",
 };
 
 export const skills = [
@@ -210,10 +211,10 @@ export const experiences = [
   {
     id: 0,
     img: "https://play-lh.googleusercontent.com/9JLZPobsfynxNuVTxDBlE57ryWuOAJ2ngO7BASRYQ-fqPSEgOqEntgCgf3bq3VrYew=w240-h480-rw",
-    role: "MERN Stack Developer",
+    role: "Web Developer",
     company: "Vnurture Technologies",
     date: "Aug 2021 - Apr 2022",
-    desc: "Enhanced user experiences on Neurobit PSG & Hybrid, Portals by resolving bugs & reduced load time by 40%. Built Neurobit Analytics portal using React Js with seamless interaction of REST APIs using AXIOS optimized with React Query. Refactored previous code to TypeScript, updated with new dependency and integrated Vite with Jest for Unit Testing.",
+    desc: "Developed interactive websites using MERN i.e. Mongo, Express, React and Node, with an emphasis on performance optimization. Demonstrated proficiency in utilizing various libraries, including Redux, MUI, JWT, and Passport, to develop robust and efficient sites. Implemented various components that interact with third-party APIs. Worked with JIRA software and GitHub.",
     skills: [
       "ReactJS",
       "NodeJS",
@@ -224,7 +225,6 @@ export const experiences = [
       "Material UI",
       "JWT"
     ],
-    // doc: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Screenshot%20from%202024-01-25%2022-38-31.png?alt=media&token=2785903f-1a4e-41f5-afd2-6adcfe56d058",
   },
   
 ];
@@ -250,7 +250,7 @@ export const education = [
   },
   {
     id: 2,
-    img: "https://www.georgiancollege.ca/wp-content/uploads/GC_ILAC_Horizontal_RGB-1024x341.png",
+    img: Ilac,
     school: "Georgian@ILAC, Canada",
     date: "Sep 2023 - Apr 2024",
     grade: "81%",
@@ -277,7 +277,6 @@ export const projects = [
     ],
     category: "web app",
     github: "https://github.com/RonitSanghvi/LocalExpert",
-    webapp: "https://github.com/RonitSanghvi/LocalExpert",
   },
   {
     id: 9,
@@ -295,7 +294,6 @@ export const projects = [
     ],
     category: "web app",
     github: "https://github.com/saunik-dabhi/georgian_auto_show_2023",
-    webapp: "https://github.com/saunik-dabhi/georgian_auto_show_2023",
   },
 ];
 

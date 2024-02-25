@@ -63,6 +63,7 @@ const ToggleButtonGroup = styled.div`
     margin: 22px 0px;
     @media (max-width: 768px) {
         font-size: 12px;
+        align-items: center;
     }
 `
 
@@ -79,7 +80,7 @@ const ToggleButton = styled.div`
         background: ${({ theme }) => theme.primary + 8};
     }
     @media (max-width: 768px) {
-        padding: 6px 8px;
+        padding: 2px 4px;
         border-radius: 4px;
     }
 `

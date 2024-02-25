@@ -1,8 +1,8 @@
 import styled from 'styled-components';
-import FacebookIcon from '@mui/icons-material/Facebook';
 import GithubIcon from '@mui/icons-material/GitHub';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import InstagramIcon from '@mui/icons-material/Instagram';
+import { SiUpwork } from "react-icons/si";
 import { Bio } from '../../data/constants';
 
 const FooterContainer = styled.div`
@@ -97,7 +97,7 @@ function Footer() {
           <NavLink href="#education">Education</NavLink>
         </Nav>
         <SocialMediaIcons>
-          <SocialMediaIcon href={Bio.facebook} target="display"><FacebookIcon /></SocialMediaIcon>
+          <SocialMediaIcon href={Bio.upwork} target="display"><SiUpwork /></SocialMediaIcon>
           <SocialMediaIcon href={Bio.github} target="display"><GithubIcon /></SocialMediaIcon>
           <SocialMediaIcon href={Bio.linkedin} target="display"><LinkedInIcon /></SocialMediaIcon>
           <SocialMediaIcon href={Bio.insta} target="display"><InstagramIcon /></SocialMediaIcon>
