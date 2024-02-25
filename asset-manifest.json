@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/my_portfolio/static/css/main.bf538fe7.css",
+    "main.js": "/my_portfolio/static/js/main.67163efa.js",
+    "static/media/GIT-CodeQuest.jpg": "/my_portfolio/static/media/GIT-CodeQuest.5d67848d34d01e73a1e0.jpg",
+    "static/media/LD-InsightCoding.jpg": "/my_portfolio/static/media/LD-InsightCoding.06ce970c8df4348efa71.jpg",
+    "static/media/Indus.jpg": "/my_portfolio/static/media/Indus.d384a547e00b6a8056ea.jpg",
+    "static/media/SuitPhoto.jpg": "/my_portfolio/static/media/SuitPhoto.1b165abb986b7eeac3c8.jpg",
+    "static/media/GL_CSS.png": "/my_portfolio/static/media/GL_CSS.fc60df51a96aadf93f92.png",
+    "static/media/LI_ProblemSolving.png": "/my_portfolio/static/media/LI_ProblemSolving.0390521a0c8f82064ce3.png",
+    "static/media/LI_Flutter.png": "/my_portfolio/static/media/LI_Flutter.5eef83e2fee9483e7a9a.png",
+    "static/media/LI_PRJM.png": "/my_portfolio/static/media/LI_PRJM.fd798859da99d3b0aaf3.png",
+    "static/media/LI_Flutter2.png": "/my_portfolio/static/media/LI_Flutter2.4af3923e8ea4c7dc7b46.png",
+    "static/media/Scrum.png": "/my_portfolio/static/media/Scrum.7b58692993c083c94ac8.png",
+    "static/media/HomePage2.jpg": "/my_portfolio/static/media/HomePage2.dd5f6ffc421c7bcac3eb.jpg",
+    "static/media/FCC_ResponsoveWebDesign.png": "/my_portfolio/static/media/FCC_ResponsoveWebDesign.50f719fce1db158cdb5c.png",
+    "static/media/LI_Figma.png": "/my_portfolio/static/media/LI_Figma.39932f7d375d3d88cd0b.png",
+    "static/media/LI_DecisionMaking.png": "/my_portfolio/static/media/LI_DecisionMaking.7eb26dc1a19a4f5568d5.png",
+    "static/media/GL_HTML.png": "/my_portfolio/static/media/GL_HTML.7bcaa63db5290c8880d3.png",
+    "static/media/ReactNative.png": "/my_portfolio/static/media/ReactNative.739ed909c550a6d99c40.png",
+    "static/media/Github.png": "/my_portfolio/static/media/Github.b0c3630e06dae6f8a2b9.png",
+    "static/media/React_SecuringWeb.png": "/my_portfolio/static/media/React_SecuringWeb.4fecb9375b099c811c02.png",
+    "static/media/AutoShow.jpg": "/my_portfolio/static/media/AutoShow.f56eb2d474c9ecc144b3.jpg",
+    "index.html": "/my_portfolio/index.html",
+    "main.bf538fe7.css.map": "/my_portfolio/static/css/main.bf538fe7.css.map",
+    "main.67163efa.js.map": "/my_portfolio/static/js/main.67163efa.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.bf538fe7.css",
+    "static/js/main.67163efa.js"
+  ]
+}
