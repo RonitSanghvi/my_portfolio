@@ -1,6 +1,7 @@
 import LocalExpert from '../Assets/Projects/HomePage2.jpg'
 import Autoshow from '../Assets/Projects/AutoShow.jpg'
 import Ilac from '../Assets/Georgian@Ilac.jpg'
+import EcommerceStore from '../Assets/Projects/EcommerceFlutter.png'
 
 export const Bio = {
   name: "Ronit Sanghvi",
@@ -275,7 +276,7 @@ export const projects = [
       "Express Js",
       "Redux"
     ],
-    category: "web app",
+    category: "mobile app",
     github: "https://github.com/RonitSanghvi/LocalExpert",
   },
   {
@@ -289,11 +290,27 @@ export const projects = [
     tags: [
       "Flutter",
       "Swift",
-      "Dart",
-      "HTML"
+      "Dart"
     ],
-    category: "web app",
+    category: "mobile app",
     github: "https://github.com/saunik-dabhi/georgian_auto_show_2023",
+  },
+  {
+    id: 7,
+    title: "Ecommerce Store",
+    date: "Jan 2023 - Aug 2023",
+    description:
+      "Developed an ecommerce store using Flutter and Stripe payment gateway.",
+    image:
+      EcommerceStore,
+    tags: [
+      "Flutter",
+      "Swift",
+      "Dart",
+      "Stripe"
+    ],
+    category: "mobile app",
+    github: "https://github.com/RonitSanghvi/AndroidStudio_Ecommerce",
   },
 ];
 

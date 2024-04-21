@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import styled from "styled-components";
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
@@ -133,11 +133,19 @@ const ContactButton = styled.input`
 
 const Contact = () => {
   //hooks
-  const [open, setOpen] = React.useState(false);
+  const [open, setOpen] = useState(false);
+  const [allFieldsRequiredOpen, setAllFieldsRequiredOpen] = useState(false);
   const form = useRef();
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    const { from_email, from_name, subject, message } = form.current.elements;
+    
+    if (!from_email.value || !from_name.value || !subject.value || !message.value) {
+      setAllFieldsRequiredOpen(true);
+      return;
+    }
+    
     emailjs.sendForm('service_wgzcpj7', 'template_uo24ry8', form.current, 'CVsd9S0dj_C4QQaxI')
       .then((result) => {
         setOpen(true);
@@ -168,6 +176,13 @@ const Contact = () => {
           onClose={() => setOpen(false)}
           message="Email sent successfully!"
           severity="success"
+        />
+        <Snackbar
+          open={allFieldsRequiredOpen}
+          autoHideDuration={6000}
+          onClose={() => setAllFieldsRequiredOpen(false)}
+          message="All fields are required!"
+          severity="error"
         />
       </Wrapper>
     </Container>
