@@ -31,6 +31,11 @@ export const skills = [
           "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
       },
       {
+        name: "Next JS",
+        image:
+          "https://i.pinimg.com/736x/32/9a/d8/329ad85f4ab2047cae13d582274f9270.jpg"
+      },
+      {
         name: "Redux",
         image:
           "https://d33wubrfki0l68.cloudfront.net/0834d0215db51e91525a25acf97433051f280f2f/c30f5/img/redux.svg",
@@ -214,7 +219,7 @@ export const experiences = [
     img: "https://play-lh.googleusercontent.com/9JLZPobsfynxNuVTxDBlE57ryWuOAJ2ngO7BASRYQ-fqPSEgOqEntgCgf3bq3VrYew=w240-h480-rw",
     role: "Web Developer",
     company: "Vnurture Technologies",
-    date: "Aug 2021 - Apr 2022",
+    date: "Apr 2021 - Apr 2022",
     desc: "Developed interactive websites using MERN i.e. Mongo, Express, React and Node, with an emphasis on performance optimization. Demonstrated proficiency in utilizing various libraries, including Redux, MUI, JWT, and Passport, to develop robust and efficient sites. Implemented various components that interact with third-party APIs. Worked with JIRA software and GitHub.",
     skills: [
       "ReactJS",
@@ -254,7 +259,7 @@ export const education = [
     img: Ilac,
     school: "Georgian@ILAC, Canada",
     date: "Sep 2023 - Apr 2024",
-    grade: "81%",
+    grade: "73.5 GPA",
     desc: "Engaged in a comprehensive project management course, honing skills vital for effective project execution. Learning key principles including scope management, time and resource allocation, risk assessment, and stakeholder communication. Gaining proficiency in project planning, scheduling, and budgeting to ensure successful project delivery. Equipped with the knowledge and tools necessary to lead and manage projects across various industries, optimizing processes and achieving project objectives efficiently.",
     degree: "Post Graduate Certification, Project Management",
   },
