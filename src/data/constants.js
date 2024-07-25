@@ -6,6 +6,7 @@ import EcommerceStore from '../Assets/Projects/EcommerceFlutter.png'
 export const Bio = {
   name: "Ronit Sanghvi",
   roles: [
+    "Software Developer",
     "Next JS Developer",
     "ReactNative Developer",
     "Full Stack Developer",
@@ -15,7 +16,7 @@ export const Bio = {
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/ronitSanghvi",
   resume:
-    "https://drive.google.com/file/d/16Nqes0_U_Fd9wiyGgAEop53f7R1F7-0W/view?usp=sharing",
+    "https://drive.google.com/file/d/1elgCvd8unBnSrkMbbayatV37TK_1kUlo/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/ronit-sanghvi-a82a20209/",
   insta: "https://www.instagram.com/sanghvi_ronit/",
   upwork: "https://www.upwork.com/freelancers/~016c919da57600302e?mp_source=share",
