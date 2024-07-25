@@ -1,7 +1,7 @@
 # My Portfolio
 Welcome to my portfolio! This project showcases my skills, projects, and experiences as a web developer.
 
-### Weblink: [Live Website](https://ronitsanghvi.github.io/MyPortfolio/)
+### Weblink: [Live Website](https://ronitsanghvi.github.io/my_portfolio/)
 
 ## Table of Contents
 - [Introduction](#introduction)
