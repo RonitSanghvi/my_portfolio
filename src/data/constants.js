@@ -218,7 +218,7 @@ export const experiences = [
   {
     id: 0,
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgYbITySX7EAQteMGEM1XnatwKEgZm4nyYfQ&s",
-    role: "Associate Software Developer",
+    role: "Software Developer",
     company: "DigiMaa",
     date: "Feb 2020 - Feb 2021",
     desc: "Work within a team to develop, test and maintain softwares, applications and websites. Worked with multiple languages such as Java, Python, Javascript and .Net",
