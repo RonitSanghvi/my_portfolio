@@ -13,10 +13,10 @@ export const Bio = {
     "Programmer",
   ],
   description:
-    "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
+    "I'm a resourceful Software Developer with a keen interest in mastering new technologies. I'm driven to create user-friendly and innovative applications that make a difference. I adapt quickly to new project challenges and thrive in fast-paced environments. My experience encompasses designing, developing, and maintaining websites, along with a strong foundation in Mobile Application Development. ",
   github: "https://github.com/ronitSanghvi",
   resume:
-    "https://drive.google.com/file/d/1elgCvd8unBnSrkMbbayatV37TK_1kUlo/view?usp=sharing",
+    "https://drive.google.com/file/d/1jfQS2RX_aLpqfgCf89ph9XeKNDFBABwp/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/ronit-sanghvi-a82a20209/",
   insta: "https://www.instagram.com/sanghvi_ronit/",
   upwork: "https://www.upwork.com/freelancers/~016c919da57600302e?mp_source=share",
