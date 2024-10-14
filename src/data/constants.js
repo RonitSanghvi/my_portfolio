@@ -216,17 +216,33 @@ export const skills = [
 
 export const experiences = [
   {
-    id: 0,
-    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgYbITySX7EAQteMGEM1XnatwKEgZm4nyYfQ&s",
-    role: "Software Developer",
-    company: "DigiMaa",
-    date: "Feb 2020 - Feb 2021",
-    desc: "Work within a team to develop, test and maintain softwares, applications and websites. Worked with multiple languages such as Java, Python, Javascript and .Net",
+    id: 2,
+    img: "data:image/png;base64,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",
+    role: "Cashier",
+    company: "Bulkbarn",
+    date: "Oct 2023 - Current",
+    desc: "Efficiently managed cash and credit/debit transactions, ensuring accuracy and customer satisfaction. Handled daily cash balancing, reconciled discrepancies, and maintained a secure cash register. Provided excellent customer service in a fast-paced environment, consistently meeting transaction processing targets. Developed strong attention to detail, user-experiences, communication, and problem-solving skills while adhering to store policies and procedures.",
     skills: [
-      "Java",
-      "Python",
-      "Javascript",
-      ".Net"
+      "Cash Handling",
+      "Customer Service",
+      "Quality Assurance",
+      "Problem Solving",
+      "Inventory Management"
+    ],
+  },
+  {
+    id: 2,
+    img: "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOAAAADhCAMAAADmr0l2AAAAgVBMVEUUqAD///9BsTsAoQAApgAApAAAoABkvWDz+fImrBvs9uzo9OdXuVLM58s0ryz3/PdLtUXe8N3U69Pj8uLF5MOIyoV1w3Gs2aqTz5A8sTWh1J99xnqc0pqt2au43raEyYHA4r5fu1p2w3JKtUOW0JNqv2ZZuVQuriU+sTil1qONzIq3xaS+AAAK0UlEQVR4nO2daXuqOhSFsUnQOs+2Tq21Hqv//wfegNUKWRmBC+Th/XhOwSwy7+y9E7R0dAer6/IwfqkYx8Pyuhp0tcUPlP/bW7UpYYxSGlQOXijGCGuveq4Cu9szYRVUloQyct4qKlIqcNAPKy/uDgsPA0uB8yGpjbwISoZzC4GTY73kRVDyMjEVuKlP43yGhhsjgdMqDplmUDrVC3wLyy5mFsKrTmCflV3GbLC+UmDntbbN8w597cgFduvb/f6gtCsT6IW+tMIngR0/9EUKR1Dg2RN9XOEZCex7o48r7IsC32o+PyRh32mB01rP7yLhNCWw7ALlT1LgxqMOeIN9PAuceNZAI8LZk8CjdxXIR9Lxn8ABKbs0RUAGD4HvHlYgr8L3u8CplxXIq3D6K/DgZQXyKjzcBHY9HEJvhN1Y4NarRdozbB0LPJddjuIYRgJnng4xEaTHBV68baG8ja64QF/H0Aja5gI9rkBeha2g53EXjDphMPe7BufB2uMuyAVegg+vBdJF0PZb4Ck4ll2GYhkHr2UXoVjeyy5A0Xhefw0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDQ0NDebQOEw3DiH27hCTMhIG/eViu97tLtvrckwJy1klFXB+0PItXFzwtUuHc3YG236eMdP00E5xMvNpo+nnUvzonic/F2ng+OCL5aWRjIS3m7lEEVnhflG7rTC2mKmf37/nE19MOsKr/+UicKTwTmX0onk6YtrPQyIQaBbcpBModxCn5Fv37F3ie3bvpeIEvkleQw7iT0rZZe6KxQkcwK9Pyd5cHmeUNdi4OIEt5P1Hz/q8Iiku2VzNCxQI3sMOtvI400zNFAgc5yRQdDEmKIWBnm6QQWGBAgUncfLhpI93xAxRuQUKTMcqMrf6i3FXWKTApAcnbbvra42cW2mRAhMTBR1m0Mf7oetsAQSaBRkaCEz4wTOL6R0xcJwt8hQopCM6/b2JfCqLP+rNJj1x3f+MY/h4ngKFFCifjzLRk7zk8+uRkRh2vEpzNrVaL07dME+BZ+FfHhMFk9VOb/O8hY9MFwvZWqfrFBgBBJp9KSAwFIp2b6Nshcs8WopZl2j4JfkaTuFzeQpku/S/3He9Yt3GfOJFmHRB7qAvV4H0n/hP8d8yPMIspAMjwV3206GR5iowFNrWNX7XKyzuUlFc9gMfGdqPM7kKZELTitejYtON2Ch7FF4XfNr3QiDwx1kgWI1FX4uhsl40ze03/j+Ftb58axDY6Pg3p2gToU86wYRplbO2rsJ8BYptNFKNUvUZxDmEYna4Vsd6wZZrE0Xtin9zoM9o3YXGJut8RkCgWUIIKDAQ5/pWuBD/0mxRgpYHe9s2igSaPQgFsq3wr1eQL3NpVg9UfLJjOxXmLDAQ22NH/AXTnAygS7eG2QWavUIikCi2Aw9MgzXpUXx2YdkJ8xao2hc9MG5moEvbzvV5CwxC/c59Z1xGMMzYRpMDgWbngzKBVH+yYr5zRYaqsgWioS9Jz2KyBi+zHGXyF4iGvgQ2STWI2Akto62BQLNoUXkN6uyDZmbJG0wclC3j5fMXqJspVEe/okCxOXyXLhBvdB5YjfNMPOu2TBtTgMBbliwpVk2Miks/80mmMIE0nUE5gdUoSN+E5y2X20UIVFbhyGoey0GgOA5nW8nExVL0wqlV+cDuZGUpUPQ2MrNsA0PLX90oBlK78oG1mqXVAtgTzGZSsN3+E6iYC7+sRnkmbiZl7imyN4jf2ijJKmiFz3tR+XLGLoEkER2+7L4QKolRG6BL4bnEmbx0RWq3VgY93dIqAyYao+xPYNOQONBl4vAXY7fbocDAbbnhpV/CG4wsQuC4ITkDg+FZ+Ar60om2Ubtpxv0bgfInjQmS2d5uHQImVLtpJoCt3Kgbi4+lOgc+A7M7iAY92TqDIZgnDJbDFPi8pJ+Cp7ojm/JRYFK1Tr6Fjn70zRzMT4JjE3aMsfGWADYn+wyGyAymnwlB2xF7F/as+DYeJVDRHPIUg7LOdF8ZrIGffUbuAIfw6A9NKwFVoK1ZNMBLf51fOtiDoLYjcRb6Z6aQIfucgysJ6ska2zp6BExw9AULNLsyCK5nnVJQolXVt/p8GTwB+i0aam+cDHoSXCk4ZYEF6221cTZE96uBLyLzjmmZXGuFjj+tTKp/AO8PPl/Jg3MYaKBwnw2/3C9zjZ9yCJ+13Ek8XoZCbKR3FzF4vIIcPNBQ9KAzVjRTyqDRwzUVOlhwRyU4w35IxH1SS3IPgsaIv6eyjs5+8KcBM5EZsAp5gwCOZAT6vMAuqzauRWwZkkjJGv+5+2UEMm/jaSpAioZtvAmawwpEfiApVmeS7AqUsavMMzGLa7rMzjf9iiMW4xhNQj9kEWPQ0qg9hYmZbV/I7QLZ6CdIW/6QeurSgL3JYib7t83ptHnby+PhsJ8j9I+BTPfr62az2O5VT2S7r4a5hjRESMwQeCXqTBZ5gWzeMUPiA6hoFQ7YHLpB3L3iJW6DmeIkBL4yRxJSiVeulpVk8DY4rDfnmkMie82xngzpDl3i5luaPl4itCbVIZ98gVF6aDyuJvnI6SIC4WZUPYqrqsBul4QmwckCh9zuIaDvliP7TjE3vQt/zacT8s967ug6OGrLFVKrRqRqOmAFH23HgV+3mn3O13WH5mNfTxkELnUfIH2LMN5RO/d7QJjpSLBWf1qw2/3drprH0et+ww0aLg3m/PmrpucDk8pjT8Wo3JjxxD4o6JYTSjbSNBq/8t61LUd5xM0lbjVfcXQpSt5NYl8+FnS3gb7lgGVD8liOkTayXd2/4IkUfEcN35u1d2CDNN3+GP00CJZIW05lPzHbnXJLtqIuIyOsv1jNJ70uZzb9vGyOhBgm1AFnOsC/IvqJ8cdlPp3x3+hN+E98jFme6XK0RBGL5Dc8k9kkIwJmMcmRjvNPlAvY7Wbe0VUKYDL06mar+NbKJNYhHZUGHCBaew9UGrCktvTzrDjAZOhwNlthsrtgVRxgwfJKH/CPsHXBqjbAUdezQVTcKFiHblYa4Ch99aoPgkHUq1tykYNM2WXKFeAg49kgKtqUJn4JFE2Gng2iosXMMtqh4oDdrle35CIHGa8uIUUOMn6NMeJu169B1M2Rv0YAk6FlZHHFAQ4yzn6CVQQ5yJglH6gJFHhDejXGBK8iZRepoaF8bJM91YxhcCy7CMUyDrzarwjQdmCZZ6Zm0EWw9lvgJXAKTKsNbB7Y5iOrF6QX+OUDkIa1Ar9s5yn4Biawj7CvEWzFBfrcCUmPC/Rr05lk2IoEOqWKrwVsHQt0DRCtPlHKzyh7iNmtbfUjNgJFAhVRHLUmDu+M87/kGWJRHW45f2KBMNS29tySuN0y+Lhdm1Jtft3fbwKzxcFWk3D2JNAsKVytuLv335NMlV2e3LmfJt8FTj1rpI+kJY80YY4XUFWUvwR8f3nQfHJMffIGeEr09uqNwufI8SeBndpEl2igtAMFynPh1AtKn0MUE7kIvVCY1JcU2OrUvx/S16S/WDqb5Ljms4UQ8y+ky7zWesYPhdAhMR/ooL4dkQZidCK63QkkpaoDNEQZ95DA1uSliDj1YqHkBwb6Q4FxvHitJFIylMRuSwTyrngIazOgsvCfNDOTVCCf9tfn/zXw2Q3KyHmryIKhEMjprdr0ltysbB0iNA7TZu2VOjuDWmBckYPV9as9fqkYx8PyuhroE5j8B1+Cf7tdSWO7AAAAAElFTkSuQmCC",
+    role: "Freelancing",
+    company: "Upwork",
+    date: "Current",
+    desc: "As a freelancer on Upwork, I specialize in web design and development, site reviews, bug fixes, and site restoration. My expertise lies in using NextJS and React to deliver high-quality projects, ensuring client satisfaction and seamless functionality.",
+    skills: [
+      "NextJS",
+      "ReactJS",
+      "Redux",
+      "Material UI",
+      "Tailwind CSS"
     ],
   },
   {
@@ -248,35 +264,33 @@ export const experiences = [
     ],
   },
   {
-    id: 2,
-    img: "data:image/png;base64,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",
-    role: "Freelancing",
-    company: "Upwork",
-    date: "Current",
-    desc: "As a freelancer on Upwork, I specialize in web design and development, site reviews, bug fixes, and site restoration. My expertise lies in using NextJS and React to deliver high-quality projects, ensuring client satisfaction and seamless functionality.",
+    id: 0,
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgYbITySX7EAQteMGEM1XnatwKEgZm4nyYfQ&s",
+    role: "Software Developer",
+    company: "DigiMaa",
+    date: "Feb 2020 - Feb 2021",
+    desc: "Actively contributed to the development, testing, and maintenance of various software solutions, applications, and websites as part of a dynamic team. Engaged in the development lifecycle, from initial design and coding to debugging and deployment on both front-end and back-end. Worked extensively with a diverse range of programming languages, including Java, Python, JavaScript, and .NET, ensuring the delivery of robust and efficient software products.",
     skills: [
-      "NextJS",
-      "ReactJS",
-      "Redux",
-      "Material UI",
-      "Tailwind CSS"
+      "Java",
+      "Python",
+      "Javascript",
+      ".Net"
     ],
   },
-  
 ];
 
 export const education = [
   {
-    id: 0,
-    img: "https://www.gandhinagaruni.ac.in/wp-content/uploads/2023/02/favicon-gu.png",
-    school: "Gandhinagar Institute of Technology, India",
-    date: "Apr 2018 - Apr 2022",
-    grade: "8.83 CGPA",
-    desc: "I started my journey as a developer by pursuing a Bachelor's degree in Information Technology at Gandhinagar Institute of Technology(Currently known as Gandhinagar University), Gandhinagar. I have completed 4 years and got a CGPA of 8.71. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. Moreover, i also participated in many intercollege tech fests to showup my skills in Programming.",
-    degree: "Bachelor of Technology - BTech, Information Technology",
+    id: 1,
+    img: Ilac,
+    school: "Georgian@ILAC, Canada",
+    date: "Sep 2023 - Apr 2024",
+    grade: "73.5 GPA",
+    desc: "Engaged in a comprehensive project management course, honing skills vital for effective project execution. Learning key principles including scope management, time and resource allocation, risk assessment, and stakeholder communication. Gaining proficiency in project planning, scheduling, and budgeting to ensure successful project delivery. Equipped with the knowledge and tools necessary to lead and manage projects across various industries, optimizing processes and achieving project objectives efficiently.",
+    degree: "Post Graduate Certification, Project Management",
   },
   {
-    id: 1,
+    id: 2,
     img: "https://www.eduopinions.com/wp-content/uploads/2018/09/GeorgianUniversity-logo.jpg",
     school: "Georgian College, Canada",
     date: "Jan 2023 - Aug 2023",
@@ -285,13 +299,13 @@ export const education = [
     degree: "Post Graduate Certification, Mobile Application Development",
   },
   {
-    id: 2,
-    img: Ilac,
-    school: "Georgian@ILAC, Canada",
-    date: "Sep 2023 - Apr 2024",
-    grade: "73.5 GPA",
-    desc: "Engaged in a comprehensive project management course, honing skills vital for effective project execution. Learning key principles including scope management, time and resource allocation, risk assessment, and stakeholder communication. Gaining proficiency in project planning, scheduling, and budgeting to ensure successful project delivery. Equipped with the knowledge and tools necessary to lead and manage projects across various industries, optimizing processes and achieving project objectives efficiently.",
-    degree: "Post Graduate Certification, Project Management",
+    id: 3,
+    img: "https://www.gandhinagaruni.ac.in/wp-content/uploads/2023/02/favicon-gu.png",
+    school: "Gandhinagar Institute of Technology, India",
+    date: "Apr 2018 - Apr 2022",
+    grade: "8.83 CGPA",
+    desc: "I started my journey as a developer by pursuing a Bachelor's degree in Information Technology at Gandhinagar Institute of Technology(Currently known as Gandhinagar University), Gandhinagar. I have completed 4 years and got a CGPA of 8.71. I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others. Moreover, i also participated in many intercollege tech fests to showup my skills in Programming.",
+    degree: "Bachelor of Technology - BTech, Information Technology",
   },
 ];
 
