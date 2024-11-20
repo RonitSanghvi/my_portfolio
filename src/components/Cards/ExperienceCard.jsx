@@ -141,9 +141,6 @@ const Skill = styled.div`
         font-size: 12px;
     }
 `
-
-
-
 const ExperienceCard = ({ experience }) => {
     return (
         <Card>
@@ -156,10 +153,18 @@ const ExperienceCard = ({ experience }) => {
                 </Body>
             </Top>
             <Description>
-                {experience?.desc &&
-                    <Span>{experience?.desc}</Span>
-
-                }
+                {experience?.desc && (
+                    experience.desc.split('\n').map((line, index) => {
+                    // Spliting the line to make the heading lines bold.
+                        const isHeading = line.includes(':');
+                        return (
+                            // pre-wrap keeps all the whitespace and tabs
+                            <div key={index} style={{ whiteSpace: 'pre-wrap', textAlign: 'justify' }}>
+                                {isHeading ? <strong>{line.trim()}</strong> : line.trim()}
+                            </div>
+                        );
+                    })
+                )}
                 {experience?.skills &&
                     <>
                         <br />
