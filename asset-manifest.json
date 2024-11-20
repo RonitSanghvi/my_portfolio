@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/my_portfolio/static/css/main.bf538fe7.css",
-    "main.js": "/my_portfolio/static/js/main.ec044f8b.js",
+    "main.js": "/my_portfolio/static/js/main.7dc5c3fc.js",
     "static/media/GIT-CodeQuest.jpg": "/my_portfolio/static/media/GIT-CodeQuest.5d67848d34d01e73a1e0.jpg",
     "static/media/LD-InsightCoding.jpg": "/my_portfolio/static/media/LD-InsightCoding.06ce970c8df4348efa71.jpg",
     "static/media/Indus.jpg": "/my_portfolio/static/media/Indus.d384a547e00b6a8056ea.jpg",
@@ -25,10 +25,10 @@
     "static/media/AutoShow.jpg": "/my_portfolio/static/media/AutoShow.f56eb2d474c9ecc144b3.jpg",
     "index.html": "/my_portfolio/index.html",
     "main.bf538fe7.css.map": "/my_portfolio/static/css/main.bf538fe7.css.map",
-    "main.ec044f8b.js.map": "/my_portfolio/static/js/main.ec044f8b.js.map"
+    "main.7dc5c3fc.js.map": "/my_portfolio/static/js/main.7dc5c3fc.js.map"
   },
   "entrypoints": [
     "static/css/main.bf538fe7.css",
-    "static/js/main.ec044f8b.js"
+    "static/js/main.7dc5c3fc.js"
   ]
 }
