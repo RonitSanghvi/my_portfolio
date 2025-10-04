@@ -2,6 +2,7 @@ import LocalExpert from '../Assets/Projects/HomePage2.jpg'
 import Autoshow from '../Assets/Projects/AutoShow.jpg'
 import Ilac from '../Assets/Georgian@Ilac.jpg'
 import EcommerceStore from '../Assets/Projects/EcommerceFlutter.png'
+import FlutterNotes from "../Assets/Projects/FlutterNotes.jpg"
 
 export const Bio = {
   name: "Ronit Sanghvi",
@@ -16,7 +17,7 @@ export const Bio = {
     "I'm a resourceful Software Developer with a keen interest in mastering new technologies. I'm driven to create user-friendly and innovative applications that make a difference. I adapt quickly to new project challenges and thrive in fast-paced environments. My experience encompasses designing, developing, and maintaining websites, along with a strong foundation in Mobile Application Development. ",
   github: "https://github.com/ronitSanghvi",
   resume:
-    "https://drive.google.com/file/d/11rCa9DE1F4HdgkFdZkAiVOBfzdY0AFlv/view?usp=sharing",
+    "https://docs.google.com/document/d/1Uu9KJhccUFBVwTWxWAwbWnoeF6TjC_6a/edit?usp=sharing",
   linkedin: "https://www.linkedin.com/in/ronit-sanghvi-a82a20209/",
   insta: "https://www.instagram.com/sanghvi_ronit/",
   upwork: "https://www.upwork.com/freelancers/~016c919da57600302e?mp_source=share",
@@ -232,29 +233,52 @@ export const skills = [
 ];
 
 const descDigiMaaa = `
-• React and Front-End Development: 
-  Developed and maintained dynamic, responsive web applications using React.js and Next.js, integrating Express for backend services and Node.js for server-side scripting. Created visually appealing and responsive interfaces with Material-UI, Tailwind CSS, Bootstrap, and managed complex state efficiently using Redux and Axios. Leveraged a range of libraries to enhance front-end functionality, including jQuery, Moment.js, react-toastify, Cookie.js improving both performance and interactivity.
-•	Database and Cloud:
-  Implemented and optimized database solutions using MongoDB, SQL, MySQL, Firebase, and other NoSQL databases to ensure effective data management and integrity. Acquired basic knowledge in Amazon Web Services (AWS), particularly with EC2, S3, and IAM, to support secure and efficient application deployment in a cloud environment.
-•	Design and Prototyping:
-  Collaborated on UX/UI design, creating detailed prototypes and wireframes in Figma to guide front-end development, aligning designs with user and client expectations. Integrated Framer Motion for animations and Three.js to build 3D interfaces, enhancing user engagement.
-•	Collaboration and Project Management:
-Facilitated smooth collaboration and project tracking using Git and GitHub for version control and Jira for task management, ensuring timely completion of project milestones. Conducted team meetings, project updates, and code reviews via Zoom and Microsoft Office Suite tools to support clear and effective communication.
-MS Excel: 
-Developed and managed complex spreadsheets and project dashboards, created automated calculation formulas, and generated in-depth data reports, allowing for thorough tracking of project progress, KPIs, and performance insights. Utilized VS Code as a primary IDE for efficient coding and debugging in development workflows.
-MS Word: 
-Authored comprehensive technical documentation, project proposals, and operational manuals for internal and client-facing purposes, ensuring clear understanding and usability.
-•	Other Knowledge and Training:
-Complemented by training in Python (with experience in NumPy, Pandas, Matplotlib, and Flask for data analysis and backend tasks), C, C++, and Java, allowing for versatility across programming paradigms. Streamlined testing and API integrations using Postman, ensuring backend connectivity and data integrity.
+• React and Front-End Development: Developed and maintained dynamic, responsive web applications using React.js and Next.js, integrating Express for backend services and Node.js for server-side scripting. Created visually appealing and responsive interfaces with Material-UI, Tailwind CSS, Bootstrap, and managed complex state efficiently using Redux and Axios. Leveraged a range of libraries to enhance front-end functionality, including jQuery, Moment.js, react-toastify, Cookie.js improving both performance and interactivity.
+•	Database and Cloud: Implemented and optimized database solutions using MongoDB, SQL, MySQL, Firebase, and other NoSQL databases to ensure effective data management and integrity. Acquired basic knowledge in Amazon Web Services (AWS), particularly with EC2, S3, and IAM, to support secure and efficient application deployment in a cloud environment.
+•	Design and Prototyping: Collaborated on UX/UI design, creating detailed prototypes and wireframes in Figma to guide front-end development, aligning designs with user and client expectations. Integrated Framer Motion for animations and Three.js to build 3D interfaces, enhancing user engagement.
+•	Collaboration and Project Management: Facilitated smooth collaboration and project tracking using Git and GitHub for version control and Jira for task management, ensuring timely completion of project milestones. Conducted team meetings, project updates, and code reviews via Zoom and Microsoft Office Suite tools to support clear and effective communication.
+•	MS Excel: Developed and managed complex spreadsheets and project dashboards, created automated calculation formulas, and generated in-depth data reports, allowing for thorough tracking of project progress, KPIs, and performance insights. Utilized VS Code as a primary IDE for efficient coding and debugging in development workflows.
+•	MS Word: Authored comprehensive technical documentation, project proposals, and operational manuals for internal and client-facing purposes, ensuring clear understanding and usability.
+•	Other Knowledge and Training: Complemented by training in Python (with experience in NumPy, Pandas, Matplotlib, and Flask for data analysis and backend tasks), C, C++, and Java, allowing for versatility across programming paradigms. Streamlined testing and API integrations using Postman, ensuring backend connectivity and data integrity.
+`
+
+const descADPCanada = `
+
+•	Conduct comprehensive due diligence on clients and their businesses to ensure compliance with internal policies and global regulatory standards. 
+•	My role involved end-to-end Know Your Customer (KYC) reviews, including open-source intelligence, document verification, and risk assessments to validate the legitimacy of clients and their associated entities. 
+•	Key responsibilities included: Performing detailed analysis of client and corporate information to detect potential compliance risks and ensure adherence to Anti-Money Laundering (AML), Counter-Terrorism Financing (CTF), and Know Your Customer (KYC) regulations.  Applied business analysis methodologies and requirements documentation techniques to support risk management and compliance processes.
+•	Ensuring all verification processes align with FINTRAC (Financial Transactions and Reports Analysis Centre of Canada) guidelines and regulatory requirements. 
+•	Conducting open-world searches and leveraging public sources for due diligence and Enhanced Due Diligence (EDD) reviews on high-risk clients. Collaborating cross-functionally with internal departments including Sales, FCRM (Financial Crime Risk Management), Sanctions, and Compliance to ensure a smooth onboarding process and timely resolution of compliance related issues. 
+•	Directly engaging with clients to collect, clarify, and verify required documentation, ensuring timely and accurate onboarding. 
+•	Utilizing tools such as Microsoft office, Excel, Access, Powerpoint, Webex, and Outlook to maintain and analyze data, facilitate communications, and manage documentation workflows.  Additionally leveraged SQL, Oracle, and MSSQL to manage and analyze structured data.
+•	Proactively troubleshooting problems, identifying and suggesting improvements to internal software and tools to enhance process efficiency and streamline workflows. 
+•	Mentoring and training new hires on KYC processes, internal systems, and compliance standards to ensure operational consistency and knowledge retention across the team. 
+•	Reporting directly to the VP of Risk and Compliance and the Senior Director of Compliance, providing updates on high-risk cases and contributing to strategic decision-making initiatives 
+
 `
 
 export const experiences = [
   {
+    id: 1,
+    img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSoQlkuyTAGNGbOSHvrdx6FawIFpBEgblSIIA&s",
+    role: "KYC Analyst",
+    company: "ADP Canada",
+    date: "Feb 2025 - Current",
+    desc: descADPCanada,
+    skills: [
+      "MS Excel",
+      "Complaince",
+      "AML",
+      "Microsoft Access",
+      "Webex",
+    ],
+  },
+  {
     id: 2,
     img: `data:image/png;base64,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`,
-    role: "Cashier",
+    role: "Cashier/Keyholder",
     company: "Bulkbarn",
-    date: "Oct 2023 - Current",
+    date: "Oct 2023 - Jun 2025",
     desc: "Efficiently managed cash and credit/debit transactions, ensuring accuracy and customer satisfaction. Handled daily cash balancing, reconciled discrepancies, and maintained a secure cash register. Provided excellent customer service in a fast-paced environment, consistently meeting transaction processing targets. Developed strong attention to detail, user-experiences, communication, and problem-solving skills while adhering to store policies and procedures.",
     skills: [
       "Cash Handling",
@@ -265,22 +289,7 @@ export const experiences = [
     ],
   },
   {
-    id: 2,
-    img: "data:image/png;base64,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",
-    role: "Freelancing",
-    company: "Upwork",
-    date: "Current",
-    desc: "As a freelancer on Upwork, I specialize in web design and development, site reviews, bug fixes, and site restoration. My expertise lies in using NextJS and React to deliver high-quality projects, ensuring client satisfaction and seamless functionality.",
-    skills: [
-      "NextJS",
-      "ReactJS",
-      "Redux",
-      "Material UI",
-      "Tailwind CSS"
-    ],
-  },
-  {
-    id: 0,
+    id: 3,
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTgYbITySX7EAQteMGEM1XnatwKEgZm4nyYfQ&s",
     role: "Software Developer",
     company: "DigiMaa",
@@ -295,6 +304,7 @@ export const experiences = [
       "Python",
     ],
   },
+  
 ];
 
 export const education = [
@@ -378,5 +388,22 @@ export const projects = [
     ],
     category: "mobile app",
     github: "https://github.com/RonitSanghvi/AndroidStudio_Ecommerce",
+  },
+  {
+    id: 8,
+    title: "Flutter Notes App",
+    date: "Sep 2025 - Sep 2025",
+    description:
+      "Developed a notes app using Flutter and Firebase.",
+    image:
+      FlutterNotes,
+    tags: [
+      "Flutter",
+      "Firebase",
+      "Android",
+      "IOS"
+    ],
+    category: "mobile and web app",
+    github: "https://github.com/RonitSanghvi/notes_app_flutter_firebase",
   },
 ];
